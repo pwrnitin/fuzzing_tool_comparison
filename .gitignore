@@ -21,8 +21,15 @@ targets/libpng/
 corpus/json/*
 !corpus/json/.gitkeep
 
+# evolved PNG corpus
+corpus/png/*
+!corpus/png/.gitkeep
+
 targets/crash-*
 targets/corpus/
+
+# accidental or external clones in repo root
+json-c/
 
 # =========================
 # Large logs (optional)
