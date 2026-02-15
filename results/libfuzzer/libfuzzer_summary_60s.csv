@@ -1,0 +1,5 @@
+tool,seed,coverage_edges,features_ft,executions,exec_per_sec,corpus_files,corpus_size_kb,peak_rss_mb,coverage_edges_per_million_exec
+LibFuzzer,1,2307,13069,1369676,23214,800,129,476,1684.2
+LibFuzzer,2,2386,13515,1533796,25996,837,167,490,1555.6
+LibFuzzer,3,2311,13407,1625678,27553,825,180,483,1421.3
+

@@ -1,0 +1,38 @@
+# =========================
+# Build outputs
+# =========================
+build/
+builds/
+targets/**/build*/
+*.o
+*.a
+*.so
+*.out
+
+# =========================
+# External target libraries
+# =========================
+targets/json-c/
+targets/libpng/
+
+# =========================
+# Fuzzing generated files
+# =========================
+corpus/json/*
+!corpus/json/.gitkeep
+
+targets/crash-*
+targets/corpus/
+
+# =========================
+# Large logs (optional)
+# =========================
+results/libfuzzer/*.txt
+
+# =========================
+# Editor / OS junk
+# =========================
+*.swp
+*.tmp
+.DS_Store
+
