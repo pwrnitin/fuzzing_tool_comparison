@@ -43,3 +43,21 @@ results/libfuzzer/*.txt
 *.tmp
 .DS_Store
 
+# Python virtual environment
+.venv/
+
+# AFL runtime folders
+afl_in/
+afl_out/
+findings/
+
+# External source clones
+json-c/
+
+# Build folders
+build/
+build_*/
+
+# Python cache
+__pycache__/
+
