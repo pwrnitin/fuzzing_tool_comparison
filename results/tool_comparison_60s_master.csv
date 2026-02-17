@@ -1,0 +1,14 @@
+tool,target,seed,execs_done,execs_per_sec,corpus_count,coverage_metric,coverage_type,crashes,hangs
+LibFuzzer,json-c,1,1369676,23214,800,2307,cov_edges,0,0
+LibFuzzer,json-c,2,1533796,25996,837,2386,cov_edges,0,0
+LibFuzzer,json-c,3,1625678,27553,825,2311,cov_edges,0,0
+AFL++,json-c,1,207968,3465.44,352,412,edges_found,0,0
+AFL++,json-c,2,208991,3482.31,339,419,edges_found,0,0
+AFL++,json-c,3,205633,3426.65,336,416,edges_found,0,0
+LibFuzzer,libpng,1,1132635,18567,212,1750,cov_edges,0,0
+LibFuzzer,libpng,2,1049707,17208,200,1742,cov_edges,0,0
+LibFuzzer,libpng,3,1123082,18411,168,1740,cov_edges,0,0
+AFL++,libpng,1,128093,2134.49,37,420,edges_found,0,0
+AFL++,libpng,2,156343,2605.41,38,420,edges_found,0,0
+AFL++,libpng,3,141689,2361.13,45,420,edges_found,0,0
+
