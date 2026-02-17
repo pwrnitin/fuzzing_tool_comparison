@@ -1,0 +1,8 @@
+tool,target,seed,execs_done,execs_per_sec,corpus_count,coverage_metric,coverage_type,crashes
+LibFuzzer,libpng,1,1132635,18567,212,1750,cov_edges,0
+LibFuzzer,libpng,2,1049707,17208,200,1742,cov_edges,0
+LibFuzzer,libpng,3,1123082,18411,168,1740,cov_edges,0
+AFL++,libpng,1,128093,2134.49,37,420,edges_found,0
+AFL++,libpng,2,156343,2605.41,38,420,edges_found,0
+AFL++,libpng,3,141689,2361.13,45,420,edges_found,0
+
