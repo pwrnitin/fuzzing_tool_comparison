@@ -78,3 +78,10 @@ build/
 # stray artifacts
 json-c
 
+# Raw fuzz logs
+results/honggfuzz/*_run_60s_seed*.txt
+results/aflplusplus/*_run_60s_seed*.txt
+
+# Workspaces
+afl_out/
+hfuzz_out/
