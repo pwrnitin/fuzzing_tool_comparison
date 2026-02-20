@@ -61,3 +61,20 @@ build_*/
 # Python cache
 __pycache__/
 
+# fuzzing runtime data
+afl_out/
+hfuzz_out/
+findings/
+corpus/
+hfuzz_in/
+afl_in/   # optional: keep seeds elsewhere (corpus_base or seeds/)
+
+# builds / vendored sources
+targets/honggfuzz-src/
+targets/**/build_*/
+build/
+.venv/
+
+# stray artifacts
+json-c
+
