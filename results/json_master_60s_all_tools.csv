@@ -1,0 +1,10 @@
+tool,target,run_id,time_s,execs_done,execs_per_sec,corpus_count,coverage_metric,peak_rss_mb
+libfuzzer,json-c,1,60,,23214.0,800,2307.0,476
+libfuzzer,json-c,2,60,,25996.0,837,2386.0,490
+libfuzzer,json-c,3,60,,27553.0,825,2311.0,483
+afl++,json-c,1,60,207968.0,3465.44,352,26.18,
+afl++,json-c,2,60,208991.0,3482.31,339,26.62,
+afl++,json-c,3,60,205633.0,3426.65,336,26.43,
+honggfuzz,json-c,1,61,46820.0,767.0,1052,21.0,12
+honggfuzz,json-c,2,61,44807.0,734.0,237,21.0,12
+honggfuzz,json-c,3,61,47522.0,779.0,149,21.0,12
