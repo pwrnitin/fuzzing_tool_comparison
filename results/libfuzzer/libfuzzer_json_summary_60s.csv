@@ -1,0 +1,4 @@
+tool,target,run_id,time_s,execs_done,execs_per_sec,corpus_count,corpus_bytes,coverage_metric,features_ft,peak_rss_mb
+libfuzzer,json-c,1,60,,23214,800,132174,2307,13069,476
+libfuzzer,json-c,2,60,,25996,837,171396,2386,13515,490
+libfuzzer,json-c,3,60,,27553,825,184939,2311,13407,483
