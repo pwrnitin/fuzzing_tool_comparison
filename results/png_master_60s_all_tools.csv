@@ -1,0 +1,10 @@
+tool,target,run_id,time_s,execs_done,execs_per_sec,corpus_count,coverage_metric,peak_rss_mb
+libfuzzer,libpng,1,60,1132635,18567,212,1750,477
+libfuzzer,libpng,2,60,1049707,17208,200,1742,571
+libfuzzer,libpng,3,60,1123082,18411,168,1740,453
+afl++,libpng,1,60,128093,2134.49,37,6.48,0
+afl++,libpng,2,60,156343,2605.41,38,6.48,0
+afl++,libpng,3,60,141689,2361.13,45,6.48,0
+honggfuzz,libpng,1,61,43670,715,354,5,9
+honggfuzz,libpng,2,61,45892,752,86,5,9
+honggfuzz,libpng,3,61,43284,709,51,5,9
