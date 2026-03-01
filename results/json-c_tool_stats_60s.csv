@@ -1,0 +1,12 @@
+target,tool,metric,mean,std,min,max,n
+json-c,afl++,execs_per_sec,3458.133333333333,28.54031242529292,3426.65,3482.31,3
+json-c,afl++,coverage_metric,26.409999999999997,0.22068076490713973,26.18,26.62,3
+json-c,afl++,corpus_count,342.3333333333333,8.504900548115383,336.0,352.0,3
+json-c,honggfuzz,execs_per_sec,760.0,23.302360395462088,734.0,779.0,3
+json-c,honggfuzz,coverage_metric,21.0,0.0,21.0,21.0,3
+json-c,honggfuzz,corpus_count,479.3333333333333,497.89188920219755,149.0,1052.0,3
+json-c,honggfuzz,peak_rss_mb,12.0,0.0,12.0,12.0,3
+json-c,libfuzzer,execs_per_sec,25587.666666666668,2198.1315550560967,23214.0,27553.0,3
+json-c,libfuzzer,coverage_metric,2334.6666666666665,44.50093631973751,2307.0,2386.0,3
+json-c,libfuzzer,corpus_count,820.6666666666666,18.876793513023692,800.0,837.0,3
+json-c,libfuzzer,peak_rss_mb,483.0,7.0,476.0,490.0,3

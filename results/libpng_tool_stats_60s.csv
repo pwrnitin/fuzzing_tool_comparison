@@ -1,0 +1,13 @@
+target,tool,metric,mean,std,min,max,n
+libpng,afl++,execs_per_sec,2367.0099999999998,235.51505769270892,2134.49,2605.41,3
+libpng,afl++,coverage_metric,6.48,0.0,6.48,6.48,3
+libpng,afl++,corpus_count,40.0,4.358898943540674,37.0,45.0,3
+libpng,afl++,peak_rss_mb,0.0,0.0,0.0,0.0,3
+libpng,honggfuzz,execs_per_sec,725.3333333333334,23.28805129961142,709.0,752.0,3
+libpng,honggfuzz,coverage_metric,5.0,0.0,5.0,5.0,3
+libpng,honggfuzz,corpus_count,163.66666666666666,165.75986647356268,51.0,354.0,3
+libpng,honggfuzz,peak_rss_mb,9.0,0.0,9.0,9.0,3
+libpng,libfuzzer,execs_per_sec,18062.0,743.6874343432193,17208.0,18567.0,3
+libpng,libfuzzer,coverage_metric,1744.0,5.291502622129181,1740.0,1750.0,3
+libpng,libfuzzer,corpus_count,193.33333333333334,22.744962812309307,168.0,212.0,3
+libpng,libfuzzer,peak_rss_mb,500.3333333333333,62.364519827649865,453.0,571.0,3
