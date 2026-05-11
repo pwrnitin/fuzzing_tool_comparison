@@ -85,3 +85,17 @@ results/aflplusplus/*_run_60s_seed*.txt
 # Workspaces
 afl_out/
 hfuzz_out/
+
+# =========================
+# Fuzzgoat (cloned external repo + workspaces)
+# =========================
+targets/fuzzgoat/
+afl_in_fuzzgoat/
+afl_out_fuzzgoat/
+hfuzz_in_fuzzgoat/
+hfuzz_out_fuzzgoat/
+
+# Multi-budget run outputs (binaries + crash artifacts, not source)
+runs/
+crash-*
+crash_*
