@@ -99,3 +99,5 @@ hfuzz_out_fuzzgoat/
 runs/
 crash-*
 crash_*
+phase2.log
+*.log
