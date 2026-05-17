@@ -101,3 +101,5 @@ crash-*
 crash_*
 phase2.log
 *.log
+results/aflplusplus/
+results/honggfuzz/
